@@ -83,7 +83,7 @@ export default function CoverPanel({
             <dt>
               <Dots value={s.difficulty} /> Nivel
             </dt>
-            <dd>{["", "Fácil", "Media", "Con paciencia"][s.difficulty]}</dd>
+            <dd>{["", "Fácil", "Media", "Exigente"][s.difficulty]}</dd>
           </div>
         </dl>
 
